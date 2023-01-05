@@ -1,11 +1,6 @@
 .header {
   background-color: #f4f5f5;
 }
-@media all and (max-width: 756px) {
-  .header {
-    background-color: crimson;
-  }
-}
 .header .location_box {
   display: flex;
   justify-content: space-between;
