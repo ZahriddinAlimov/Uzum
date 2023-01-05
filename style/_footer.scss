@@ -1,0 +1,62 @@
+footer {
+  .footer_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .footer_box {
+      ul {
+        li {
+          padding-top: 16px;
+          font-size: 12px;
+          color: #4d4e59;
+          b {
+            font-size: 14px;
+            color: #000;
+          }
+          .appstore {
+            display: flex;
+            align-items: center;
+            img {
+              padding-right: 5px;
+            }
+            p {
+              padding-right: 24px;
+            }
+          }
+          .tarmoqlar {
+            padding-top: 32px;
+          }
+          span {
+            padding-top: 16px;
+            img {
+              padding-right: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  hr {
+    border: 0.1px solid;
+    color: #e8e8e8;
+    margin-top: 73px;
+  }
+  .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+
+    .kelishuv {
+      a {
+        b {
+          color: #000;
+          font-size: 14px;
+          padding-right: 16px;
+        }
+      }
+    }
+    .korxona_nomi {
+      font-size: 11px;
+      color: #4d4e59;
+    }
+  }
+}
